@@ -1,0 +1,232 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Pujas.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Historial/{idSubasta}": {
+      "get": {
+        "tags": [
+          "Controller_Pujas"
+        ],
+        "parameters": [
+          {
+            "name": "idSubasta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Crear_Puja": {
+      "post": {
+        "tags": [
+          "Controller_Pujas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crear_Puja_DTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crear_Puja_DTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crear_Puja_DTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Crear_Puja_Automatica": {
+      "post": {
+        "tags": [
+          "Controller_Pujas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crear_Puja_Automatica_DTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crear_Puja_Automatica_DTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crear_Puja_Automatica_DTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Hacer_Pujas_Automaticas": {
+      "post": {
+        "tags": [
+          "Controller_Pujas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Verificar_Si_Usuario_tiene_Puja_Automatica/{id_postor}": {
+      "get": {
+        "tags": [
+          "Controller_Pujas"
+        ],
+        "parameters": [
+          {
+            "name": "id_postor",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Obtener_Ultima_Puja_Subasta/{id_subasta}": {
+      "get": {
+        "tags": [
+          "Controller_Pujas"
+        ],
+        "parameters": [
+          {
+            "name": "id_subasta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Crear_Puja_Automatica_DTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "id_Subasta": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Postor": {
+            "type": "string",
+            "nullable": true
+          },
+          "maximo_Monto": {
+            "type": "number",
+            "format": "double"
+          },
+          "incrementos": {
+            "type": "number",
+            "format": "double"
+          },
+          "fecha_Creacion_Puja_Automatica": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Crear_Puja_DTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "id_Subasta": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Postor": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Puja": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          },
+          "incremento": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

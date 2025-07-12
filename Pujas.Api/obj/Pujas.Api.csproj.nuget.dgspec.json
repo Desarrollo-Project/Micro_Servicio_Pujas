@@ -1,0 +1,419 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Api\\Pujas.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Api\\Pujas.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Api\\Pujas.Api.csproj",
+        "projectName": "Pujas.Api",
+        "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Api\\Pujas.Api.csproj",
+        "packagesPath": "C:\\Users\\jcher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Aplicacion\\Pujas.Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Aplicacion\\Pujas.Aplicacion.csproj"
+              },
+              "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj": {
+                "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj"
+              },
+              "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Infraestructura\\Pujas.Infraestructura.csproj": {
+                "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Infraestructura\\Pujas.Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.Azure.ServiceBus.Core": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Aplicacion\\Pujas.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Aplicacion\\Pujas.Aplicacion.csproj",
+        "projectName": "Pujas.Aplicacion",
+        "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Aplicacion\\Pujas.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\jcher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Aplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj": {
+                "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj",
+        "projectName": "Pujas.Dominio",
+        "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj",
+        "packagesPath": "C:\\Users\\jcher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Infraestructura\\Pujas.Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Infraestructura\\Pujas.Infraestructura.csproj",
+        "projectName": "Pujas.Infraestructura",
+        "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Infraestructura\\Pujas.Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\jcher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Infraestructura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj": {
+                "projectPath": "C:\\Users\\jcher\\OneDrive\\Escritorio\\Segunda Entrega\\Micro Pujas\\V2\\Pujas.Dominio\\Pujas.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

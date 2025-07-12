@@ -1,0 +1,98 @@
+[
+  {
+    "ContainingType": "Pujas.Api.Controllers.Controller_Pujas",
+    "Method": "Crear_Puja",
+    "RelativePath": "Crear_Puja",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Pujas.Aplicacion.DTO.Crear_Puja_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pujas.Api.Controllers.Controller_Pujas",
+    "Method": "Crear_Puja_Automatica",
+    "RelativePath": "Crear_Puja_Automatica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Pujas.Aplicacion.DTO.Crear_Puja_Automatica_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pujas.Api.Controllers.Controller_Pujas",
+    "Method": "Hacer_Pujas_Automaticas_Por_Temporizador",
+    "RelativePath": "Hacer_Pujas_Automaticas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_sub",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pujas.Api.Controllers.Controller_Pujas",
+    "Method": "ObtenerHistorialPujas",
+    "RelativePath": "Historial/{idSubasta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSubasta",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pujas.Api.Controllers.Controller_Pujas",
+    "Method": "Obtener_Ultima_Puja_Subasta",
+    "RelativePath": "Obtener_Ultima_Puja_Subasta/{id_subasta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_subasta",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pujas.Api.Controllers.Controller_Pujas",
+    "Method": "Verificar_Si_Usuario_tiene_Puja_Automatica",
+    "RelativePath": "Verificar_Si_Usuario_tiene_Puja_Automatica/{id_postor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_postor",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
